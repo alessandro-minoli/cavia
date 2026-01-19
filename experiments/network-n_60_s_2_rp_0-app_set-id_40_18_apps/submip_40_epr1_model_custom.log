@@ -1,0 +1,112 @@
+FIXINGS_START
+(0, 0, 0)
+(1, 0, 0)
+(2, 0, 0)
+(2, 1, 0)
+(3, 0, 0)
+(3, 6, 0)
+(4, 0, 0)
+(5, 0, 0)
+(5, 4, 0)
+(6, 0, 0)
+(6, 4, 0)
+(7, 0, 0)
+(8, 8, 0)
+(8, 9, 0)
+(9, 0, 0)
+(9, 4, 0)
+(10, 0, 0)
+(10, 4, 0)
+(11, 0, 0)
+(12, 0, 0)
+(12, 6, 0)
+(13, 0, 0)
+(14, 4, 0)
+(15, 0, 0)
+(16, 0, 0)
+(16, 4, 0)
+(17, 0, 0)
+(17, 6, 0)
+(5, 1, 0)
+(0, 1, 19)
+(9, 1, 0)
+(9, 3, 0)
+(3, 1, 0)
+(9, 7, 0)
+(3, 2, 0)
+(3, 3, 1)
+(3, 4, 0)
+(3, 7, 0)
+(16, 5, 0)
+(1, 1, 34)
+(15, 1, 33)
+(10, 1, 35)
+(11, 3, 0)
+(12, 1, 22)
+(14, 1, 0)
+(5, 2, 0)
+(17, 2, 0)
+(11, 4, 0)
+(13, 1, 11)
+(8, 2, 0)
+(15, 2, 0)
+(7, 2, 0)
+(5, 3, 25)
+(17, 4, 0)
+(12, 2, 0)
+(8, 3, 18)
+(13, 2, 6)
+(12, 3, 0)
+(13, 3, 38)
+(14, 2, 0)
+(14, 3, 0)
+(12, 4, 37)
+(0, 3, 0)
+(17, 5, 8)
+FIXINGS_END
+found_sol 5427.0 time 1.487
+found_sol 5338.0 time 1.609
+found_sol 5292.0 time 2.116
+found_sol 4902.0 time 2.174
+found_sol 4885.0 time 2.174
+found_sol 4862.0 time 2.236
+found_sol 4855.0 time 2.729
+found_sol 4853.0 time 2.987
+found_sol 4839.0 time 4.948
+found_sol 4822.0 time 5.381
+found_sol 4722.0 time 5.739
+found_sol 4717.0 time 5.741
+found_sol 4709.0 time 6.576
+found_sol 4702.0 time 6.577
+found_sol 4694.0 time 7.144
+found_sol 4693.0 time 7.632
+found_sol 4648.0 time 9.248
+found_sol 4646.0 time 10.819
+found_sol 4637.0 time 10.820
+found_sol 4634.0 time 11.238
+found_sol 4632.0 time 12.169
+found_sol 4605.0 time 17.197
+found_sol 4605.0 time 20.798
+found_sol 4632.0 time 20.800
+found_sol 4634.0 time 20.801
+found_sol 4596.0 time 54.464
+found_sol 4587.0 time 58.078
+found_sol 4585.0 time 146.357
+found_sol 4583.0 time 157.717
+found_sol 4581.0 time 210.079
+found_sol 4579.0 time 219.772
+found_sol 4578.0 time 248.675
+found_sol 4575.0 time 255.041
+found_sol 4575.0 time 303.584
+time 303.591
+GUROBI
+Status OPTIMAL
+Runtime 303.5910048484802
+NodeCount 48287.0
+IterCount 5697102.0
+NumVars 7020
+NumConstrs 36898
+ObjBound 4575.0
+ObjBoundC 4575.0
+ObjVal 4575.0
+MIPGap 0.0

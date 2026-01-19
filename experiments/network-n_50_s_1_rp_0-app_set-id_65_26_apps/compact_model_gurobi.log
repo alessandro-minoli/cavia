@@ -1,0 +1,70 @@
+
+Gurobi 13.0.0 (linux64) logging started Fri Jan  2 16:20:28 2026
+
+Set parameter LogFile to value "../experiments/network-n_50_s_1_rp_0-app_set-id_65_26_apps/compact_model_gurobi.log"
+Set parameter TimeLimit to value 900
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  900
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 49260 rows, 8450 columns and 110602 nonzeros (Min)
+Model fingerprint: 0xb7fa645d
+Model has 8450 linear objective coefficients
+Model has 164 quadratic constraints
+Variable types: 0 continuous, 8450 integer (8450 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 47201 rows and 4883 columns
+Presolve time: 0.37s
+Presolved: 39681 rows, 40985 columns, 248079 nonzeros
+Variable types: 0 continuous, 40985 integer (40985 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 7.629036e+03, 8387 iterations, 2.37 seconds (2.87 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 7629.03615    0  683          - 7629.03615      -     -    4s
+     0     0 7675.34039    0  674          - 7675.34039      -     -    4s
+     0     0 infeasible    0               - infeasible      -     -    7s
+
+Cutting planes:
+  Gomory: 11
+  Cover: 13
+  Implied bound: 6
+  Clique: 20
+  MIR: 14
+  Knapsack: 3
+  StrongCG: 8
+  GUB cover: 1
+  Zero half: 29
+  RLT: 40
+  Relax-and-lift: 53
+  BQP: 16
+
+Explored 1 nodes (12678 simplex iterations) in 7.91 seconds (8.58 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 1022, time in user-callback 0.00 sec

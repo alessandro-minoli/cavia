@@ -1,0 +1,84 @@
+
+Gurobi 13.0.0 (linux64) logging started Fri Jan  2 14:45:43 2026
+
+Set parameter LogFile to value "../experiments/network-n_50_s_0_rp_0-app_set-id_56_23_apps/compact_model_gurobi.log"
+Set parameter TimeLimit to value 900
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  900
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 34110 rows, 7500 columns and 78476 nonzeros (Min)
+Model fingerprint: 0xbeca72ce
+Model has 7500 linear objective coefficients
+Model has 166 quadratic constraints
+Variable types: 0 continuous, 7500 integer (7500 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 32354 rows and 4687 columns
+Presolve time: 0.31s
+Presolved: 29678 rows, 30580 columns, 180940 nonzeros
+Variable types: 0 continuous, 30580 integer (30580 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.01s
+
+Solved with dual simplex
+
+Root relaxation: objective 6.746773e+03, 6460 iterations, 1.24 seconds (1.47 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 6746.77319    0  373          - 6746.77319      -     -    2s
+     0     0 6747.04049    0  381          - 6747.04049      -     -    2s
+     0     0 6882.73294    0  411          - 6882.73294      -     -    4s
+     0     0 7122.02297    0  477          - 7122.02297      -     -    6s
+     0     0 7191.87670    0  562          - 7191.87670      -     -    7s
+     0     0 7198.03640    0  551          - 7198.03640      -     -    7s
+     0     0 7200.51025    0  547          - 7200.51025      -     -    8s
+     0     0 7200.86989    0  547          - 7200.86989      -     -    8s
+     0     0 7462.84150    0  531          - 7462.84150      -     -   10s
+     0     0 7680.23761    0  534          - 7680.23761      -     -   12s
+     0     0 7826.93146    0  619          - 7826.93146      -     -   14s
+     0     0 7931.34384    0  589          - 7931.34384      -     -   15s
+     0     0 7986.01355    0  647          - 7986.01355      -     -   17s
+     0     0 7992.53942    0  650          - 7992.53942      -     -   17s
+     0     0 8621.54795    0  642          - 8621.54795      -     -   22s
+     0     0 infeasible    0               - infeasible      -     -   30s
+
+Cutting planes:
+  Gomory: 5
+  Lift-and-project: 9
+  Cover: 66
+  Implied bound: 1
+  Clique: 36
+  MIR: 72
+  Knapsack: 31
+  StrongCG: 52
+  GUB cover: 8
+  Zero half: 21
+  RLT: 411
+  Relax-and-lift: 97
+  BQP: 132
+
+Explored 1 nodes (47393 simplex iterations) in 30.77 seconds (31.27 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 1591, time in user-callback 0.01 sec

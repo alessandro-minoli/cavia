@@ -1,0 +1,45 @@
+
+Gurobi 13.0.0 (linux64) logging started Sun Jan 18 05:53:02 2026
+
+Set parameter LogFile to value "../experiments/network-n_60_s_1_rp_0-app_set-id_59_24_apps/submip_40_epr0_model_gurobi.log"
+Set parameter TimeLimit to value 8.9208423418099119e+02
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  8.9208423418099119e+02
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 63549 rows, 9360 columns and 140185 nonzeros (Min)
+Model fingerprint: 0xe4abf0bd
+Model has 9360 linear objective coefficients
+Model has 206 quadratic constraints
+Variable types: 0 continuous, 9360 integer (9360 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 63013 rows and 7761 columns
+Presolve time: 0.05s
+Presolved: 8839 rows, 9703 columns, 56028 nonzeros
+Variable types: 0 continuous, 9703 integer (9703 binary)
+Performing another presolve...
+Presolve removed 6821 rows and 7794 columns
+Presolve time: 0.29s
+
+Explored 1 nodes (0 simplex iterations) in 0.36 seconds (0.33 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 211, time in user-callback 0.00 sec
+Set parameter LogToConsole to value 0

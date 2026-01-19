@@ -1,0 +1,28 @@
+found_sol 1808.0 time 0.034
+found_sol 1751.0 time 0.035
+found_sol 1751.0 time 0.125
+found_sol 1808.0 time 0.126
+found_sol 1212.0 time 0.149
+found_sol 1043.0 time 0.153
+found_sol 1036.0 time 0.154
+found_sol 1018.0 time 0.244
+found_sol 1006.0 time 0.244
+found_sol 995.0 time 0.261
+found_sol 994.0 time 0.264
+found_sol 972.0 time 0.271
+found_sol 969.0 time 0.343
+found_sol 962.0 time 0.343
+found_sol 957.0 time 0.357
+found_sol 962.0 time 0.453
+time 0.455
+GUROBI
+Status OPTIMAL
+Runtime 0.4550900459289551
+NodeCount 1.0
+IterCount 558.0
+NumVars 1280
+NumConstrs 5388
+ObjBound 957.0
+ObjBoundC 957.0
+ObjVal 957.0
+MIPGap 0.0

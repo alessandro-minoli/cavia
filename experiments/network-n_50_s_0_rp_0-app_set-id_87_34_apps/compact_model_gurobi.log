@@ -1,0 +1,54 @@
+
+Gurobi 13.0.0 (linux64) logging started Wed Jan 14 00:14:12 2026
+
+Set parameter LogFile to value "../experiments/network-n_50_s_0_rp_0-app_set-id_87_34_apps/compact_model_gurobi.log"
+Set parameter TimeLimit to value 900
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  900
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 45299 rows, 11050 columns and 105574 nonzeros (Min)
+Model fingerprint: 0x2ef23cc8
+Model has 11050 linear objective coefficients
+Model has 166 quadratic constraints
+Variable types: 0 continuous, 11050 integer (11050 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 43052 rows and 7068 columns
+Presolve time: 0.36s
+Presolved: 43458 rows, 45031 columns, 266065 nonzeros
+Variable types: 0 continuous, 45031 integer (45031 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: infeasible, 3055 iterations, 0.42 seconds (0.48 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    1s
+
+Explored 1 nodes (3055 simplex iterations) in 1.58 seconds (2.13 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 771, time in user-callback 0.00 sec

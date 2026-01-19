@@ -1,0 +1,64 @@
+
+Gurobi 13.0.0 (linux64) logging started Wed Jan 14 19:20:09 2026
+
+Set parameter LogFile to value "../experiments/network-n_60_s_0_rp_0-app_set-id_101_38_apps/compact_model_gurobi.log"
+Set parameter TimeLimit to value 900
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  900
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 78504 rows, 14820 columns and 177738 nonzeros (Min)
+Model fingerprint: 0xe5658701
+Model has 14820 linear objective coefficients
+Model has 200 quadratic constraints
+Variable types: 0 continuous, 14820 integer (14820 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 74503 rows and 8482 columns
+Presolve time: 0.20s
+Presolved: 90257 rows, 92394 columns, 558202 nonzeros
+Variable types: 0 continuous, 92394 integer (92394 binary)
+Performing another presolve...
+Presolve removed 2891 rows and 3199 columns
+Presolve time: 0.96s
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 3.61s
+
+Barrier performed 0 iterations in 5.65 seconds (3.70 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+Concurrent spin time: 3.01s (can be avoided by choosing Method=3)
+
+Solved with dual simplex
+
+Root relaxation: infeasible, 7374 iterations, 4.15 seconds (1.70 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    5s
+
+Explored 1 nodes (7374 simplex iterations) in 5.66 seconds (3.70 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 765, time in user-callback 0.00 sec

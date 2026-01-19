@@ -1,0 +1,89 @@
+
+Gurobi 13.0.0 (linux64) logging started Thu Jan 15 02:10:26 2026
+
+Set parameter LogFile to value "../experiments/network-n_40_s_2_rp_0-app_set-id_23_12_apps/submip_30_epr0_model_gurobi.log"
+Set parameter TimeLimit to value 8.9881389816199953e+02
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  8.9881389816199953e+02
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 10203 rows, 3120 columns and 24623 nonzeros (Min)
+Model fingerprint: 0xde6c7a67
+Model has 3120 linear objective coefficients
+Model has 126 quadratic constraints
+Variable types: 0 continuous, 3120 integer (3120 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [6e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 9863 rows and 2440 columns
+Presolve time: 0.04s
+Presolved: 4928 rows, 5156 columns, 29456 nonzeros
+Variable types: 0 continuous, 5156 integer (5156 binary)
+
+Root relaxation: objective 2.911809e+03, 609 iterations, 0.02 seconds (0.04 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2911.80942    0  125          - 2911.80942      -     -    0s
+     0     0 3164.15615    0  124          - 3164.15615      -     -    0s
+     0     0 3222.92143    0  129          - 3222.92143      -     -    0s
+     0     0 3225.30851    0  135          - 3225.30851      -     -    0s
+     0     0 3310.74267    0  118          - 3310.74267      -     -    0s
+     0     0 3320.49516    0  127          - 3320.49516      -     -    0s
+     0     0 3321.83997    0  129          - 3321.83997      -     -    0s
+     0     0 3358.45198    0  142          - 3358.45198      -     -    0s
+     0     0 3360.18784    0  146          - 3360.18784      -     -    0s
+     0     0 3376.51503    0  123          - 3376.51503      -     -    1s
+     0     0 3376.57282    0  122          - 3376.57282      -     -    1s
+     0     0 3376.57282    0  116          - 3376.57282      -     -    1s
+     0     2 3376.60694    0  111          - 3376.60694      -     -    1s
+   800   572 3447.89285   19   90          - 3388.88011      -  60.8    5s
+  6111  2060 3534.02526   19  138          - 3449.91568      -  48.9   10s
+  6204  2131 3449.91568   16  151          - 3449.91568      -  49.8   15s
+  7246  2267 3765.20185   37   57          - 3522.70384      -  58.8   20s
+H 8163  2074                    3948.0000000 3544.53939  10.2%  60.6   21s
+H 8211  2021                    3937.0000000 3544.53939  10.0%  60.6   22s
+  9714  1776 infeasible   32      3937.00000 3598.59599  8.60%  62.3   25s
+*10244  1545              45    3890.0000000 3614.27612  7.09%  62.6   25s
+H10687  1330                    3887.0000000 3626.82720  6.69%  62.9   25s
+*11159  1133              40    3837.0000000 3639.52698  5.15%  63.2   26s
+*12014  1100              35    3825.0000000 3657.34042  4.38%  64.0   27s
+H12479  1043                    3786.0000000 3673.85444  2.96%  64.5   27s
+
+Cutting planes:
+  Gomory: 2
+  Lift-and-project: 1
+  Cover: 143
+  Clique: 18
+  MIR: 136
+  Knapsack: 7
+  StrongCG: 105
+  Flow cover: 130
+  GUB cover: 9
+  Inf proof: 5
+  Zero half: 51
+  RLT: 52
+  Relax-and-lift: 103
+  BQP: 5
+
+Explored 14131 nodes (882369 simplex iterations) in 29.74 seconds (27.32 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 7: 3786 3825 3837 ... 3948
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.786000000000e+03, best bound 3.786000000000e+03, gap 0.0000%
+
+User-callback calls 35551, time in user-callback 0.06 sec
+Set parameter LogToConsole to value 0

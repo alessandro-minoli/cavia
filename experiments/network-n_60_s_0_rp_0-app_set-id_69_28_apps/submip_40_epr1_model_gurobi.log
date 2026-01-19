@@ -1,0 +1,96 @@
+
+Gurobi 13.0.0 (linux64) logging started Sun Jan 18 00:00:41 2026
+
+Set parameter LogFile to value "../experiments/network-n_60_s_0_rp_0-app_set-id_69_28_apps/submip_40_epr1_model_gurobi.log"
+Set parameter TimeLimit to value 7.1116682251798920e+02
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  7.1116682251798920e+02
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 63027 rows, 10920 columns and 141485 nonzeros (Min)
+Model fingerprint: 0x827b4acb
+Model has 10920 linear objective coefficients
+Model has 200 quadratic constraints
+Variable types: 0 continuous, 10920 integer (10920 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 61995 rows and 8438 columns
+Presolve time: 0.12s
+Presolved: 27024 rows, 28278 columns, 169180 nonzeros
+Variable types: 0 continuous, 28278 integer (28278 binary)
+Performing another presolve...
+Presolve removed 4264 rows and 5081 columns
+Presolve time: 0.52s
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 6.680646e+03, 3317 iterations, 0.69 seconds (0.52 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 6680.64636    0  258          - 6680.64636      -     -    1s
+     0     0 6681.27025    0  260          - 6681.27025      -     -    1s
+     0     0 6854.37932    0  265          - 6854.37932      -     -    2s
+     0     0 6988.77931    0  290          - 6988.77931      -     -    3s
+     0     0 7006.79611    0  318          - 7006.79611      -     -    3s
+     0     0 7006.80266    0  317          - 7006.80266      -     -    3s
+     0     0 7007.53121    0  326          - 7007.53121      -     -    4s
+     0     0 7157.49331    0  326          - 7157.49331      -     -    5s
+     0     0 7213.26351    0  302          - 7213.26351      -     -    6s
+     0     0 7244.89605    0  341          - 7244.89605      -     -    6s
+     0     0 7258.94458    0  357          - 7258.94458      -     -    7s
+     0     0 7271.45891    0  386          - 7271.45891      -     -    7s
+     0     0 7272.21017    0  397          - 7272.21017      -     -    8s
+     0     0 7352.62033    0  373          - 7352.62033      -     -   10s
+     0     0 7398.95007    0  418          - 7398.95007      -     -   10s
+     0     0 7425.99833    0  353          - 7425.99833      -     -   11s
+     0     0 7435.45021    0  392          - 7435.45021      -     -   12s
+     0     0 7505.65269    0  406          - 7505.65269      -     -   14s
+     0     0 7505.73026    0  393          - 7505.73026      -     -   14s
+     0     0 7505.73026    0  386          - 7505.73026      -     -   14s
+     0     2 7505.78360    0  384          - 7505.78360      -     -   16s
+    15    30 7628.57076    4  378          - 7539.80444      -   465   20s
+   112   117 7672.10744    8  358          - 7556.86305      -   404   25s
+   221    98 infeasible   10               - 7556.86305      -   533   31s
+   334    41 infeasible   15               - 7573.76740      -   575   36s
+   436     7 infeasible   12               - 7700.06656      -   552   40s
+
+Cutting planes:
+  Gomory: 13
+  Lift-and-project: 1
+  Cover: 61
+  Clique: 54
+  MIR: 77
+  Knapsack: 18
+  StrongCG: 55
+  GUB cover: 13
+  Zero half: 9
+  RLT: 163
+  Relax-and-lift: 58
+  BQP: 25
+
+Explored 459 nodes (265261 simplex iterations) in 40.98 seconds (40.90 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 3350, time in user-callback 0.01 sec

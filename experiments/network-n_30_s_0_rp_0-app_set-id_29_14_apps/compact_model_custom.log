@@ -1,0 +1,12 @@
+time 900.026
+GUROBI
+Status TIME_LIMIT
+Runtime 900.0255780220032
+NodeCount 49246.0
+IterCount 19539939.0
+NumVars 2730
+NumConstrs 7390
+ObjBound 4099.0
+ObjBoundC 4098.442996442465
+ObjVal inf
+MIPGap inf

@@ -1,0 +1,54 @@
+
+Gurobi 13.0.0 (linux64) logging started Wed Jan 14 00:08:04 2026
+
+Set parameter LogFile to value "../experiments/network-n_30_s_0_rp_0-app_set-id_103_39_apps/compact_model_gurobi.log"
+Set parameter TimeLimit to value 900
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  900
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 18817 rows, 7620 columns and 47820 nonzeros (Min)
+Model fingerprint: 0x0730b5f7
+Model has 7620 linear objective coefficients
+Model has 98 quadratic constraints
+Variable types: 0 continuous, 7620 integer (7620 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 17214 rows and 4846 columns
+Presolve time: 0.14s
+Presolved: 22713 rows, 23705 columns, 131875 nonzeros
+Variable types: 0 continuous, 23705 integer (23705 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.15s (can be avoided by choosing Method=3)
+
+Solved with dual simplex
+
+Root relaxation: infeasible, 5552 iterations, 0.73 seconds (0.56 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    1s
+
+Explored 1 nodes (5552 simplex iterations) in 1.46 seconds (1.29 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 586, time in user-callback 0.00 sec

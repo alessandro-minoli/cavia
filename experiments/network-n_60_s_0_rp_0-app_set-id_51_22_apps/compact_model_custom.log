@@ -1,0 +1,77 @@
+found_sol 7224.0 time 25.641
+found_sol 7149.0 time 27.578
+found_sol 6888.0 time 27.764
+found_sol 6867.0 time 32.372
+found_sol 6787.0 time 37.797
+found_sol 6784.0 time 37.803
+found_sol 6714.0 time 38.885
+found_sol 6619.0 time 39.022
+found_sol 6613.0 time 40.285
+found_sol 5991.0 time 46.526
+found_sol 5989.0 time 51.002
+found_sol 5983.0 time 54.734
+found_sol 5889.0 time 54.767
+found_sol 5811.0 time 59.835
+found_sol 5804.0 time 64.186
+found_sol 5648.0 time 64.191
+found_sol 5610.0 time 78.765
+found_sol 5590.0 time 82.602
+found_sol 5563.0 time 82.608
+found_sol 5491.0 time 82.613
+found_sol 5457.0 time 85.643
+found_sol 5437.0 time 92.004
+found_sol 5435.0 time 92.010
+found_sol 5428.0 time 92.017
+found_sol 5394.0 time 95.466
+found_sol 5275.0 time 95.472
+found_sol 5273.0 time 98.384
+found_sol 5271.0 time 98.393
+found_sol 5256.0 time 101.915
+found_sol 5246.0 time 101.923
+found_sol 5241.0 time 101.932
+found_sol 5228.0 time 101.942
+found_sol 5199.0 time 105.345
+found_sol 5077.0 time 105.352
+found_sol 5060.0 time 108.916
+found_sol 5056.0 time 108.925
+found_sol 5039.0 time 108.936
+found_sol 5033.0 time 112.793
+found_sol 5001.0 time 121.733
+found_sol 4996.0 time 125.714
+found_sol 4986.0 time 129.902
+found_sol 4985.0 time 133.884
+found_sol 4978.0 time 133.894
+found_sol 4973.0 time 139.598
+found_sol 4966.0 time 139.606
+found_sol 4964.0 time 143.950
+found_sol 4960.0 time 143.970
+found_sol 4820.0 time 148.450
+found_sol 4819.0 time 154.244
+found_sol 4811.0 time 154.273
+found_sol 4764.0 time 159.648
+found_sol 4755.0 time 170.322
+found_sol 4754.0 time 175.911
+found_sol 4750.0 time 244.235
+found_sol 4750.0 time 280.913
+found_sol 4754.0 time 280.924
+found_sol 4755.0 time 280.936
+found_sol 4746.0 time 393.259
+found_sol 4743.0 time 399.270
+found_sol 4742.0 time 408.939
+found_sol 4741.0 time 421.756
+found_sol 4740.0 time 461.877
+found_sol 4730.0 time 488.963
+found_sol 4728.0 time 527.386
+found_sol 4725.0 time 577.435
+time 900.103
+GUROBI
+Status TIME_LIMIT
+Runtime 900.1031558513641
+NodeCount 6185.0
+IterCount 2102802.0
+NumVars 8580
+NumConstrs 58386
+ObjBound 4681.0
+ObjBoundC 4680.194119426957
+ObjVal 4725.0
+MIPGap 0.009312169312169312

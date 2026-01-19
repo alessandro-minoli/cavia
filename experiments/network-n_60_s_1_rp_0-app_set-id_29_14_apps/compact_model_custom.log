@@ -1,0 +1,38 @@
+found_sol 4321.0 time 2.187
+found_sol 4283.0 time 2.189
+found_sol 4180.0 time 2.772
+found_sol 4065.0 time 2.774
+found_sol 4060.0 time 3.509
+found_sol 3866.0 time 4.275
+found_sol 3863.0 time 4.277
+found_sol 3830.0 time 4.279
+found_sol 3754.0 time 4.460
+found_sol 3602.0 time 4.650
+found_sol 3510.0 time 5.327
+found_sol 3502.0 time 5.397
+found_sol 3417.0 time 5.891
+found_sol 3314.0 time 5.893
+found_sol 3303.0 time 5.895
+found_sol 3275.0 time 5.897
+found_sol 3265.0 time 5.899
+found_sol 3261.0 time 6.402
+found_sol 3223.0 time 11.258
+found_sol 3215.0 time 12.686
+found_sol 3082.0 time 12.689
+found_sol 3042.0 time 15.514
+found_sol 3039.0 time 17.324
+found_sol 3016.0 time 17.328
+found_sol 3013.0 time 21.984
+found_sol 3011.0 time 36.657
+time 216.279
+GUROBI
+Status OPTIMAL
+Runtime 216.27918481826782
+NodeCount 9872.0
+IterCount 1218805.0
+NumVars 5460
+NumConstrs 40456
+ObjBound 3011.0
+ObjBoundC 3011.0
+ObjVal 3011.0
+MIPGap 0.0

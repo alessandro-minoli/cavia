@@ -1,0 +1,65 @@
+
+Gurobi 13.0.0 (linux64) logging started Fri Jan  2 18:27:34 2026
+
+Set parameter LogFile to value "../experiments/network-n_50_s_1_rp_0-app_set-id_0_5_apps/compact_model_gurobi.log"
+Set parameter TimeLimit to value 900
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  900
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 10925 rows, 1600 columns and 24144 nonzeros (Min)
+Model fingerprint: 0xbe93c6ea
+Model has 1600 linear objective coefficients
+Model has 164 quadratic constraints
+Variable types: 0 continuous, 1600 integer (1600 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 10468 rows and 840 columns
+Presolve time: 0.10s
+Presolved: 6811 rows, 6957 columns, 42753 nonzeros
+Variable types: 0 continuous, 6957 integer (6957 binary)
+Found heuristic solution: objective 1637.0000000
+Found heuristic solution: objective 1517.0000000
+
+Root relaxation: objective 9.057256e+02, 77 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  905.72564    0   11 1517.00000  905.72564  40.3%     -    0s
+H    0     0                     932.0000000  905.72564  2.82%     -    0s
+     0     0  913.59459    0    4  932.00000  913.59459  1.97%     -    0s
+H    0     0                     917.0000000  913.59459  0.37%     -    0s
+     0     0  913.59459    0    6  917.00000  913.59459  0.37%     -    0s
+
+Cutting planes:
+  Gomory: 5
+  Cover: 4
+  Clique: 3
+  MIR: 3
+  Knapsack: 1
+  StrongCG: 2
+  RLT: 8
+  Relax-and-lift: 1
+  BQP: 1
+
+Explored 1 nodes (111 simplex iterations) in 0.54 seconds (0.37 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 4: 917 932 1517 1637 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.170000000000e+02, best bound 9.170000000000e+02, gap 0.0000%
+
+User-callback calls 750, time in user-callback 0.00 sec

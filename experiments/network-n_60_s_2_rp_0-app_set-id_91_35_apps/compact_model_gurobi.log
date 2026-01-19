@@ -1,0 +1,82 @@
+
+Gurobi 13.0.0 (linux64) logging started Wed Jan 14 19:48:40 2026
+
+Set parameter LogFile to value "../experiments/network-n_60_s_2_rp_0-app_set-id_91_35_apps/compact_model_gurobi.log"
+Set parameter TimeLimit to value 900
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  900
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 82019 rows, 13680 columns and 183692 nonzeros (Min)
+Model fingerprint: 0x96704825
+Model has 13680 linear objective coefficients
+Model has 190 quadratic constraints
+Variable types: 0 continuous, 13680 integer (13680 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 78173 rows and 7360 columns
+Presolve time: 0.20s
+Presolved: 86558 rows, 88843 columns, 550963 nonzeros
+Variable types: 0 continuous, 88843 integer (88843 binary)
+Performing another presolve...
+Presolve removed 2717 rows and 2929 columns
+Presolve time: 1.07s
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 4.61s
+Elapsed ordering time = 5s
+Ordering time: 8.51s
+Elapsed ordering time = 9s
+Elapsed ordering time = 10s
+Ordering time: 12.10s
+
+Barrier statistics:
+ Dense cols : 13
+ AA' NZ     : 5.549e+06
+ Factor NZ  : 7.158e+07 (roughly 600 MB of memory)
+ Factor Ops : 8.671e+10 (less than 1 second per iteration)
+ Threads    : 19
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.74489330e+07 -4.99373972e+06  1.19e+06 0.00e+00  1.95e+03    15s
+   1   2.22355617e+07 -5.19294417e+06  9.77e+05 4.82e+00  1.61e+03    16s
+   2   1.28601560e+07 -6.03284172e+06  5.76e+05 2.84e+00  9.64e+02    16s
+
+Barrier performed 2 iterations in 16.04 seconds (7.90 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+Concurrent spin time: 8.42s (can be avoided by choosing Method=3)
+
+Solved with dual simplex
+
+Root relaxation: infeasible, 23384 iterations, 14.51 seconds (7.06 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -   16s
+
+Explored 1 nodes (23384 simplex iterations) in 16.08 seconds (8.97 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 2224, time in user-callback 0.01 sec

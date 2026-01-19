@@ -1,0 +1,93 @@
+
+Gurobi 13.0.0 (linux64) logging started Sun Jan 18 05:52:15 2026
+
+Set parameter LogFile to value "../experiments/network-n_60_s_1_rp_0-app_set-id_55_23_apps/submip_40_epr1_model_gurobi.log"
+Set parameter TimeLimit to value 7.6021199379800237e+02
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  7.6021199379800237e+02
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 63738 rows, 9000 columns and 140172 nonzeros (Min)
+Model fingerprint: 0x828e8f69
+Model has 9000 linear objective coefficients
+Model has 206 quadratic constraints
+Variable types: 0 continuous, 9000 integer (9000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint fixed_app_16_microservice_4 by 1.000000000
+
+Presolve removed 63009 rows and 7226 columns
+Presolve time: 0.07s
+Presolved: 10053 rows, 10900 columns, 65663 nonzeros
+Variable types: 0 continuous, 10900 integer (10900 binary)
+Performing another presolve...
+Presolve removed 1578 rows and 1976 columns
+Presolve time: 0.29s
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.5460000e+03   8.770000e+02   0.000000e+00      6s
+    2115    5.6102714e+03   0.000000e+00   0.000000e+00      6s
+
+Root relaxation: objective 5.610271e+03, 2115 iterations, 0.20 seconds (0.28 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 5610.27137    0  212          - 5610.27137      -     -    6s
+     0     0 5821.20231    0  226          - 5821.20231      -     -    7s
+     0     0 5822.19561    0  217          - 5822.19561      -     -    7s
+     0     0 5914.61280    0  243          - 5914.61280      -     -    7s
+     0     0 5919.76643    0  262          - 5919.76643      -     -    7s
+     0     0 5920.39731    0  250          - 5920.39731      -     -    7s
+     0     0 6031.10127    0  289          - 6031.10127      -     -    8s
+     0     0 6107.10891    0  298          - 6107.10891      -     -    8s
+     0     0 6121.32261    0  293          - 6121.32261      -     -    8s
+     0     0 6126.36162    0  306          - 6126.36162      -     -    8s
+     0     0 6228.50919    0  285          - 6228.50919      -     -    9s
+     0     0 6280.96007    0  322          - 6280.96007      -     -    9s
+     0     0 6290.37954    0  334          - 6290.37954      -     -    9s
+     0     0 6331.57346    0  315          - 6331.57346      -     -   10s
+     0     0 6331.60999    0  303          - 6331.60999      -     -   10s
+     0     0 6331.60999    0  303          - 6331.60999      -     -   10s
+     0     2 6331.66124    0  297          - 6331.66124      -     -   11s
+
+Cutting planes:
+  Gomory: 2
+  Lift-and-project: 4
+  Cover: 86
+  Implied bound: 4
+  Clique: 96
+  MIR: 65
+  Knapsack: 20
+  StrongCG: 29
+  GUB cover: 8
+  Zero half: 12
+  RLT: 145
+  Relax-and-lift: 75
+  BQP: 26
+  PSD: 1
+
+Explored 535 nodes (76356 simplex iterations) in 14.93 seconds (9.08 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 2426, time in user-callback 0.01 sec

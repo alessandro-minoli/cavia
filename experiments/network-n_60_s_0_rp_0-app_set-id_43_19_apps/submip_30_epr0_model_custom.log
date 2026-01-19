@@ -1,0 +1,110 @@
+FIXINGS_START
+(0, 0, 0)
+(1, 0, 0)
+(1, 6, 0)
+(2, 0, 0)
+(2, 6, 0)
+(3, 0, 0)
+(4, 0, 0)
+(5, 0, 0)
+(6, 0, 0)
+(6, 6, 0)
+(7, 0, 0)
+(8, 0, 0)
+(9, 0, 0)
+(10, 0, 0)
+(11, 7, 0)
+(12, 0, 0)
+(13, 0, 0)
+(13, 9, 0)
+(14, 0, 0)
+(14, 7, 0)
+(15, 0, 0)
+(15, 4, 0)
+(16, 0, 0)
+(16, 9, 0)
+(17, 0, 0)
+(17, 4, 0)
+(18, 0, 0)
+(12, 3, 0)
+(12, 4, 0)
+(8, 1, 14)
+(4, 1, 4)
+(17, 5, 0)
+(18, 1, 23)
+(1, 1, 14)
+(16, 1, 25)
+(7, 1, 35)
+(14, 1, 0)
+(2, 3, 0)
+(0, 1, 0)
+(4, 2, 5)
+(3, 3, 0)
+(5, 3, 30)
+(6, 3, 28)
+(10, 1, 1)
+(10, 2, 0)
+(2, 4, 40)
+(18, 2, 0)
+(4, 3, 0)
+(13, 6, 0)
+(11, 0, 0)
+(1, 2, 0)
+(18, 3, 0)
+(16, 2, 0)
+(18, 4, 0)
+(0, 2, 0)
+(8, 2, 5)
+(17, 6, 0)
+FIXINGS_END
+found_sol 6730.0 time 2.392
+found_sol 6382.0 time 2.558
+found_sol 6193.0 time 3.469
+found_sol 6178.0 time 3.471
+found_sol 6024.0 time 3.519
+found_sol 5944.0 time 3.525
+found_sol 5851.0 time 3.533
+found_sol 5668.0 time 3.678
+found_sol 5639.0 time 3.680
+found_sol 5626.0 time 3.681
+found_sol 5621.0 time 3.682
+found_sol 5594.0 time 3.910
+found_sol 5500.0 time 4.065
+found_sol 5400.0 time 4.066
+found_sol 5365.0 time 4.350
+found_sol 5363.0 time 4.351
+found_sol 5323.0 time 4.352
+found_sol 5256.0 time 4.711
+found_sol 5235.0 time 4.744
+found_sol 5186.0 time 4.874
+found_sol 5109.0 time 8.159
+found_sol 5098.0 time 8.161
+found_sol 5074.0 time 10.132
+found_sol 4997.0 time 11.371
+found_sol 4931.0 time 12.279
+found_sol 4907.0 time 12.282
+found_sol 4898.0 time 13.596
+found_sol 4842.0 time 14.147
+found_sol 4839.0 time 14.150
+found_sol 4821.0 time 21.601
+found_sol 4801.0 time 25.229
+found_sol 4797.0 time 28.049
+found_sol 4797.0 time 38.204
+found_sol 4801.0 time 38.206
+found_sol 4821.0 time 38.208
+found_sol 4793.0 time 98.922
+found_sol 4789.0 time 98.924
+found_sol 4785.9999999999945 time 276.168
+found_sol 4786.0 time 514.615
+time 514.636
+GUROBI
+Status OPTIMAL
+Runtime 514.6361560821533
+NodeCount 62199.0
+IterCount 8424216.0
+NumVars 7440
+NumConstrs 34455
+ObjBound 4785.9999999999945
+ObjBoundC 4785.9999999999945
+ObjVal 4786.0
+MIPGap 0.0

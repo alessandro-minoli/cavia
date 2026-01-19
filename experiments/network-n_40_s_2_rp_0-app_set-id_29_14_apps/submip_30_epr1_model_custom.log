@@ -1,0 +1,66 @@
+FIXINGS_START
+(0, 0, 0)
+(1, 7, 0)
+(2, 6, 0)
+(2, 7, 0)
+(3, 8, 0)
+(4, 0, 0)
+(5, 0, 0)
+(5, 1, 0)
+(6, 0, 0)
+(7, 0, 0)
+(7, 6, 0)
+(8, 0, 0)
+(9, 0, 0)
+(11, 0, 0)
+(12, 0, 0)
+(13, 0, 0)
+(7, 5, 19)
+(7, 7, 0)
+(5, 4, 0)
+(11, 2, 0)
+(11, 3, 0)
+(10, 0, 0)
+(6, 2, 0)
+(13, 4, 0)
+(9, 1, 2)
+(9, 2, 25)
+(12, 1, 20)
+(9, 3, 19)
+(2, 0, 0)
+(5, 5, 0)
+(13, 7, 0)
+(10, 1, 0)
+(13, 8, 0)
+(3, 0, 0)
+(1, 0, 0)
+(1, 4, 0)
+(1, 5, 0)
+(1, 8, 0)
+(0, 1, 0)
+FIXINGS_END
+found_sol 3986.0 time 0.482
+found_sol 3887.0 time 1.877
+found_sol 3886.0 time 1.981
+found_sol 3873.0 time 2.520
+found_sol 3866.0 time 2.521
+found_sol 3814.0 time 2.974
+found_sol 3800.0 time 3.333
+found_sol 3746.0 time 3.445
+found_sol 3716.0 time 3.640
+found_sol 3703.0 time 4.600
+found_sol 3621.0 time 5.127
+found_sol 3620.0 time 5.128
+found_sol 3538.0 time 5.490
+time 5.799
+GUROBI
+Status OPTIMAL
+Runtime 5.798711061477661
+NodeCount 2832.0
+IterCount 263004.0
+NumVars 3640
+NumConstrs 18737
+ObjBound 3538.0
+ObjBoundC 3538.0
+ObjVal 3538.0
+MIPGap 0.0

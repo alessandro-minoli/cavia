@@ -1,0 +1,117 @@
+
+Gurobi 13.0.0 (linux64) logging started Mon Jan  5 03:41:24 2026
+
+Set parameter LogFile to value "../experiments/network-n_40_s_2_rp_0-app_set-id_19_11_apps/compact_model_gurobi.log"
+Set parameter TimeLimit to value 900
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  900
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 12403 rows, 2880 columns and 28790 nonzeros (Min)
+Model fingerprint: 0x144e0ac2
+Model has 2880 linear objective coefficients
+Model has 126 quadratic constraints
+Variable types: 0 continuous, 2880 integer (2880 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 11763 rows and 1752 columns
+Presolve time: 0.08s
+Presolved: 9706 rows, 10073 columns, 59401 nonzeros
+Variable types: 0 continuous, 10073 integer (10073 binary)
+
+Root relaxation: objective 2.502900e+03, 1005 iterations, 0.23 seconds (0.12 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2502.90026    0  174          - 2502.90026      -     -    0s
+     0     0 2562.49601    0  209          - 2562.49601      -     -    1s
+     0     0 2568.15596    0  198          - 2568.15596      -     -    1s
+     0     0 2568.79300    0  162          - 2568.79300      -     -    1s
+H    0     0                    3330.0000000 2582.25671  22.5%     -    2s
+     0     0 2582.25671    0  272 3330.00000 2582.25671  22.5%     -    2s
+     0     0 2585.94962    0  284 3330.00000 2585.94962  22.3%     -    2s
+     0     0 2586.76271    0  268 3330.00000 2586.76271  22.3%     -    2s
+     0     0 2596.54762    0  212 3330.00000 2596.54762  22.0%     -    2s
+H    0     0                    3037.0000000 2596.54762  14.5%     -    2s
+H    0     0                    3019.0000000 2596.54762  14.0%     -    2s
+H    0     0                    2960.0000000 2596.54762  12.3%     -    2s
+     0     0 2601.27570    0  224 2960.00000 2601.27570  12.1%     -    2s
+     0     0 2602.13221    0  219 2960.00000 2602.13221  12.1%     -    2s
+     0     0 2606.52738    0  218 2960.00000 2606.52738  11.9%     -    2s
+     0     0 2606.67262    0  216 2960.00000 2606.67262  11.9%     -    2s
+     0     0 2606.67262    0  211 2960.00000 2606.67262  11.9%     -    2s
+H    0     0                    2917.0000000 2606.67381  10.6%     -    3s
+     0     2 2606.67381    0  211 2917.00000 2606.67381  10.6%     -    3s
+    53    94 2631.50760    6  205 2917.00000 2620.81558  10.2%   319    5s
+H   56    94                    2911.0000000 2620.81558  10.0%   306    5s
+H  106   134                    2900.0000000 2620.81558  9.63%   254    5s
+H  128   134                    2885.0000000 2620.81558  9.16%   247    5s
+H  129   134                    2872.0000000 2620.81558  8.75%   247    5s
+H  188   220                    2863.0000000 2620.81558  8.46%   227    6s
+H  217   220                    2850.0000000 2620.81558  8.04%   214    6s
+H  329   330                    2790.0000000 2620.81558  6.06%   204    7s
+H  584   588                    2783.0000000 2620.81558  5.83%   190    9s
+   662   682 2658.79468   17  154 2783.00000 2622.11927  5.78%   184   10s
+H 1186  1131                    2753.0000000 2624.50046  4.67%   162   14s
+H 1194  1131                    2749.0000000 2624.50046  4.53%   162   14s
+  1347  1225 2716.37737   33  103 2749.00000 2624.50046  4.53%   154   15s
+H 1583  1225                    2729.0000000 2624.50046  3.83%   148   16s
+H 1763  1233                    2724.0000000 2624.50046  3.65%   143   17s
+  2218  1477 2696.60378   18  142 2724.00000 2626.76151  3.57%   141   20s
+  3130  1876 2656.97959    7  179 2724.00000 2629.85378  3.46%   131   25s
+H 3164  1761                    2715.0000000 2629.85378  3.14%   131   26s
+  3401  1898 2658.38116   28  236 2715.00000 2632.86031  3.03%   129   30s
+H 3433  1822                    2710.0000000 2632.86031  2.85%   128   32s
+  3458  1839 2708.77065   14  250 2710.00000 2632.86031  2.85%   127   35s
+  3554  1947 2637.16760   21  209 2710.00000 2632.86031  2.85%   134   40s
+H 3933  1908                    2688.0000000 2637.73114  1.87%   136   44s
+  3957  1912 2657.63442   27  164 2688.00000 2637.73114  1.87%   136   45s
+  4303  1937 2679.34598   34  154 2688.00000 2643.33697  1.66%   137   50s
+  4901  1920 2673.93395   28   59 2688.00000 2648.51315  1.47%   136   55s
+  5406  1927     cutoff   28      2688.00000 2650.06226  1.41%   135   60s
+  6479  1846 infeasible   31      2688.00000 2656.49316  1.17%   131   65s
+  7468  1644     cutoff   32      2688.00000 2659.26994  1.07%   128   70s
+  8708  1349     cutoff   32      2688.00000 2663.24983  0.92%   125   75s
+  9798  1290 2679.38163   37  182 2688.00000 2666.32382  0.81%   123   80s
+ 11198  1127 2682.07470   31  143 2688.00000 2670.41292  0.65%   120   85s
+ 13194   321     cutoff   33      2688.00000 2675.26826  0.47%   114   91s
+
+Cutting planes:
+  Gomory: 6
+  Lift-and-project: 4
+  Cover: 223
+  Implied bound: 3
+  Clique: 25
+  MIR: 109
+  Knapsack: 4
+  StrongCG: 89
+  Flow cover: 77
+  GUB cover: 6
+  Inf proof: 2
+  Zero half: 42
+  Mod-K: 1
+  RLT: 206
+  Relax-and-lift: 79
+  BQP: 52
+
+Explored 14503 nodes (1593915 simplex iterations) in 92.06 seconds (53.47 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 10: 2688 2710 2715 ... 2850
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.688000000000e+03, best bound 2.688000000000e+03, gap 0.0000%
+
+User-callback calls 36941, time in user-callback 0.08 sec

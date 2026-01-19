@@ -1,0 +1,89 @@
+
+Gurobi 13.0.0 (linux64) logging started Fri Jan  2 21:56:31 2026
+
+Set parameter LogFile to value "../experiments/network-n_50_s_2_rp_0-app_set-id_4_6_apps/compact_model_gurobi.log"
+Set parameter TimeLimit to value 900
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  900
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 11685 rows, 1950 columns and 25993 nonzeros (Min)
+Model fingerprint: 0x86d80441
+Model has 1950 linear objective coefficients
+Model has 162 quadratic constraints
+Variable types: 0 continuous, 1950 integer (1950 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 11194 rows and 1233 columns
+Presolve time: 0.09s
+Presolved: 7289 rows, 7363 columns, 45387 nonzeros
+Variable types: 0 continuous, 7363 integer (7363 binary)
+Found heuristic solution: objective 3673.0000000
+
+Root relaxation: objective 1.263443e+03, 174 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1263.44294    0   64 3673.00000 1263.44294  65.6%     -    0s
+H    0     0                    2279.0000000 1263.44294  44.6%     -    0s
+H    0     0                    1906.0000000 1263.44294  33.7%     -    0s
+H    0     0                    1798.0000000 1263.44294  29.7%     -    0s
+H    0     0                    1728.0000000 1263.44294  26.9%     -    0s
+     0     0 1316.84716    0   40 1728.00000 1316.84716  23.8%     -    0s
+H    0     0                    1718.0000000 1316.84716  23.3%     -    0s
+H    0     0                    1671.0000000 1316.84716  21.2%     -    0s
+H    0     0                    1555.0000000 1316.84716  15.3%     -    0s
+H    0     0                    1484.0000000 1317.41110  11.2%     -    1s
+     0     0 1317.41110    0   40 1484.00000 1317.41110  11.2%     -    1s
+     0     0 1329.30430    0   50 1484.00000 1329.30430  10.4%     -    1s
+     0     0 1329.41984    0   50 1484.00000 1329.41984  10.4%     -    1s
+     0     0 1349.06037    0   85 1484.00000 1349.06037  9.09%     -    1s
+H    0     0                    1468.0000000 1349.06037  8.10%     -    1s
+     0     0 1351.85024    0   76 1468.00000 1351.85024  7.91%     -    1s
+     0     0 1351.85024    0   77 1468.00000 1351.85024  7.91%     -    1s
+H    0     0                    1439.0000000 1351.85024  6.06%     -    1s
+     0     0 1358.24534    0   80 1439.00000 1358.24534  5.61%     -    1s
+     0     0 1359.04136    0   81 1439.00000 1359.04136  5.56%     -    1s
+     0     0 1363.32180    0   88 1439.00000 1363.32180  5.26%     -    1s
+     0     0 1363.44909    0   87 1439.00000 1363.44909  5.25%     -    1s
+     0     0 1363.44909    0   82 1439.00000 1363.44909  5.25%     -    1s
+     0     2 1364.96568    0   78 1439.00000 1364.96568  5.14%     -    1s
+*   39    23               5    1405.0000000 1385.09402  1.42%  55.9    2s
+*   45    18               5    1396.0000000 1385.09402  0.78%  55.8    2s
+
+Cutting planes:
+  Gomory: 12
+  Cover: 44
+  Implied bound: 10
+  Clique: 29
+  MIR: 29
+  Knapsack: 7
+  StrongCG: 20
+  GUB cover: 3
+  Inf proof: 1
+  Zero half: 3
+  RLT: 60
+  Relax-and-lift: 301
+  BQP: 11
+
+Explored 88 nodes (4426 simplex iterations) in 2.17 seconds (1.14 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 10: 1396 1405 1439 ... 1798
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.396000000000e+03, best bound 1.396000000000e+03, gap 0.0000%
+
+User-callback calls 1070, time in user-callback 0.00 sec

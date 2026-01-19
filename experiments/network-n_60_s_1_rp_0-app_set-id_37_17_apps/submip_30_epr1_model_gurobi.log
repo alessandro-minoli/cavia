@@ -1,0 +1,99 @@
+
+Gurobi 13.0.0 (linux64) logging started Sun Jan 18 01:25:10 2026
+
+Set parameter LogFile to value "../experiments/network-n_60_s_1_rp_0-app_set-id_37_17_apps/submip_30_epr1_model_gurobi.log"
+Set parameter TimeLimit to value 8.7196366843300348e+02
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  8.7196366843300348e+02
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 60684 rows, 6600 columns and 130873 nonzeros (Min)
+Model fingerprint: 0x216859d7
+Model has 6600 linear objective coefficients
+Model has 206 quadratic constraints
+Variable types: 0 continuous, 6600 integer (6600 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+
+Loaded MIP start from previous solve with objective 3612
+
+Presolve removed 59771 rows and 5015 columns
+Presolve time: 0.05s
+Presolved: 14214 rows, 14683 columns, 92796 nonzeros
+Variable types: 0 continuous, 14683 integer (14683 binary)
+Performing another presolve...
+Presolve removed 1739 rows and 1904 columns
+Presolve time: 0.35s
+
+Root relaxation: objective 3.325766e+03, 1236 iterations, 0.09 seconds (0.12 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3325.76581    0  156 3612.00000 3325.76581  7.92%     -    0s
+     0     0 3363.16593    0  160 3612.00000 3363.16593  6.89%     -    1s
+     0     0 3389.41817    0  178 3612.00000 3389.41817  6.16%     -    1s
+     0     0 3394.15691    0  190 3612.00000 3394.15691  6.03%     -    2s
+     0     0 3394.16258    0  199 3612.00000 3394.16258  6.03%     -    2s
+     0     0 3421.43115    0  186 3612.00000 3421.43115  5.28%     -    2s
+     0     0 3429.57120    0  210 3612.00000 3429.57120  5.05%     -    2s
+     0     0 3435.43859    0  253 3612.00000 3435.43859  4.89%     -    2s
+     0     0 3436.20203    0  254 3612.00000 3436.20203  4.87%     -    3s
+     0     0 3462.53411    0  214 3612.00000 3462.53411  4.14%     -    3s
+     0     0 3468.06586    0  252 3612.00000 3468.06586  3.98%     -    4s
+     0     0 3472.72867    0  246 3612.00000 3472.72867  3.86%     -    4s
+     0     0 3474.37908    0  255 3612.00000 3474.37908  3.81%     -    4s
+     0     0 3479.83930    0  227 3612.00000 3479.83930  3.66%     -    4s
+     0     0 3479.89249    0  224 3612.00000 3479.89249  3.66%     -    4s
+     0     0 3479.89249    0  216 3612.00000 3479.89249  3.66%     -    4s
+     0     2 3479.96223    0  212 3612.00000 3479.96223  3.66%     -    5s
+     1     5 3482.09628    1  216 3612.00000 3480.12570  3.65%   105    5s
+H  267   231                    3610.0000000 3494.08150  3.21%   196    9s
+   372   296 3525.32725   14  203 3610.00000 3499.76120  3.05%   183   10s
+   839   481 3569.13490   26  168 3610.00000 3512.82803  2.69%   170   15s
+  1334   669 3572.68064    9  165 3610.00000 3520.14448  2.49%   153   20s
+  2000   850     cutoff   18      3610.00000 3528.16280  2.27%   141   25s
+  2675   946 3563.75037   11  175 3610.00000 3544.76472  1.81%   134   30s
+  3692  1036     cutoff   12      3610.00000 3559.42798  1.40%   129   36s
+  4567  1039 3594.30064   27  121 3610.00000 3568.23861  1.16%   123   41s
+  5638   920 3593.13657   18  132 3610.00000 3579.33963  0.85%   118   45s
+  6645   491     cutoff   25      3610.00000 3585.23659  0.69%   113   51s
+
+Cutting planes:
+  Gomory: 9
+  Lift-and-project: 7
+  Cover: 281
+  Implied bound: 1
+  Clique: 76
+  MIR: 196
+  Knapsack: 20
+  StrongCG: 91
+  GUB cover: 11
+  Inf proof: 1
+  Zero half: 33
+  Mod-K: 1
+  RLT: 356
+  Relax-and-lift: 67
+  BQP: 114
+
+Explored 7717 nodes (823002 simplex iterations) in 52.89 seconds (30.54 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 2: 3610 3612 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.610000000000e+03, best bound 3.610000000000e+03, gap 0.0000%
+
+User-callback calls 18760, time in user-callback 0.04 sec
+Set parameter LogToConsole to value 0

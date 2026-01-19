@@ -1,0 +1,121 @@
+FIXINGS_START
+(0, 0, 0)
+(1, 0, 0)
+(1, 9, 0)
+(2, 0, 0)
+(3, 6, 0)
+(4, 0, 0)
+(5, 0, 0)
+(6, 0, 0)
+(7, 0, 0)
+(8, 0, 0)
+(9, 0, 0)
+(9, 4, 0)
+(10, 0, 0)
+(10, 4, 0)
+(11, 0, 0)
+(12, 0, 0)
+(12, 9, 0)
+(13, 0, 0)
+(13, 7, 0)
+(14, 0, 0)
+(14, 6, 0)
+(15, 0, 0)
+(15, 1, 0)
+(16, 0, 0)
+(16, 6, 0)
+(17, 0, 0)
+(19, 0, 0)
+(19, 8, 0)
+(19, 3, 0)
+(8, 1, 25)
+(6, 1, 0)
+(10, 1, 0)
+(2, 1, 0)
+(7, 1, 0)
+(12, 1, 0)
+(3, 0, 0)
+(3, 1, 0)
+(8, 2, 0)
+(19, 6, 0)
+(2, 2, 0)
+(9, 1, 0)
+(2, 3, 8)
+(5, 1, 13)
+(9, 2, 28)
+(12, 4, 0)
+(1, 4, 0)
+(5, 2, 6)
+(14, 1, 0)
+(13, 1, 19)
+(15, 4, 0)
+(10, 2, 0)
+(13, 2, 37)
+(6, 2, 20)
+(12, 6, 0)
+(15, 5, 0)
+(2, 5, 0)
+(13, 5, 0)
+(9, 5, 0)
+(8, 3, 11)
+(10, 6, 22)
+(0, 2, 0)
+(16, 1, 23)
+(12, 7, 33)
+(14, 2, 33)
+(9, 6, 28)
+(16, 2, 0)
+(9, 7, 0)
+(4, 1, 0)
+(3, 2, 0)
+FIXINGS_END
+found_sol 5717.0 time 4.680
+found_sol 5591.0 time 5.434
+found_sol 5530.0 time 5.439
+found_sol 5454.0 time 5.440
+found_sol 5377.0 time 5.458
+found_sol 5364.0 time 5.460
+found_sol 5335.0 time 5.467
+found_sol 5331.0 time 5.500
+found_sol 5292.0 time 5.502
+found_sol 5211.0 time 5.709
+found_sol 5150.0 time 9.165
+found_sol 5032.0 time 9.171
+found_sol 4984.0 time 9.179
+found_sol 4953.0 time 10.028
+found_sol 4951.0 time 10.070
+found_sol 4934.0 time 10.072
+found_sol 4892.0 time 10.074
+found_sol 4888.0 time 11.355
+found_sol 4861.0 time 11.358
+found_sol 4846.0 time 12.555
+found_sol 4838.0 time 14.131
+found_sol 4834.0 time 14.134
+found_sol 4821.0 time 16.773
+found_sol 4811.0 time 23.061
+found_sol 4758.0 time 24.137
+found_sol 4742.0 time 25.726
+found_sol 4735.0 time 28.073
+found_sol 4734.0 time 28.076
+found_sol 4707.0 time 31.430
+found_sol 4707.0 time 76.638
+found_sol 4734.0 time 76.640
+found_sol 4735.0 time 76.643
+found_sol 4704.0 time 130.085
+found_sol 4701.0 time 132.682
+found_sol 4699.0 time 201.726
+found_sol 4698.0 time 234.037
+found_sol 4697.000000000004 time 245.642
+found_sol 4697.0 time 245.661
+time 245.666
+GUROBI
+Status OPTIMAL
+Runtime 245.66562604904175
+NodeCount 24202.0
+IterCount 2722046.0
+NumVars 7800
+NumConstrs 58621
+ObjBound 4697.0
+ObjBoundC 4697.000000000004
+ObjVal 4697.0
+MIPGap 0.0

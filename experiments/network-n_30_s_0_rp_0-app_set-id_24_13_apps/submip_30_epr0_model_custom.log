@@ -1,0 +1,64 @@
+FIXINGS_START
+(0, 0, 0)
+(0, 4, 0)
+(1, 0, 0)
+(1, 1, 0)
+(2, 5, 0)
+(2, 6, 0)
+(3, 0, 0)
+(4, 0, 0)
+(4, 4, 0)
+(5, 5, 0)
+(6, 0, 0)
+(7, 0, 0)
+(8, 4, 0)
+(9, 0, 0)
+(10, 0, 0)
+(10, 9, 0)
+(11, 0, 0)
+(12, 7, 0)
+(12, 8, 0)
+(5, 0, 3)
+(1, 4, 0)
+(12, 0, 15)
+(2, 0, 2)
+(7, 2, 0)
+(0, 3, 0)
+(4, 3, 0)
+(3, 1, 0)
+(3, 3, 0)
+(11, 1, 0)
+(2, 1, 2)
+(9, 1, 0)
+(8, 0, 4)
+(1, 5, 0)
+(8, 1, 15)
+(9, 4, 0)
+(3, 4, 15)
+(8, 2, 0)
+(0, 5, 0)
+(11, 2, 0)
+FIXINGS_END
+found_sol 3826.0 time 5.684
+found_sol 3788.0 time 5.801
+found_sol 3726.0 time 5.804
+found_sol 3826.0 time 6.235
+found_sol 3605.0 time 23.229
+found_sol 3599.0 time 26.139
+found_sol 3590.0 time 59.878
+found_sol 3572.0 time 75.761
+found_sol 3565.0 time 102.251
+found_sol 3562.0 time 128.502
+found_sol 3562.0 time 133.165
+time 133.181
+GUROBI
+Status OPTIMAL
+Runtime 133.18096899986267
+NodeCount 53127.0
+IterCount 8002803.0
+NumVars 2520
+NumConstrs 6981
+ObjBound 3562.0
+ObjBoundC 3562.0
+ObjVal 3562.0
+MIPGap 0.0

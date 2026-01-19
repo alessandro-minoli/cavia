@@ -1,0 +1,91 @@
+
+Gurobi 13.0.0 (linux64) logging started Thu Jan 15 02:11:01 2026
+
+Set parameter LogFile to value "../experiments/network-n_40_s_2_rp_0-app_set-id_24_13_apps/submip_30_epr0_model_gurobi.log"
+Set parameter TimeLimit to value 8.9821000736199494e+02
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  8.9821000736199494e+02
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 17781 rows, 3360 columns and 40280 nonzeros (Min)
+Model fingerprint: 0x911ab2d1
+Model has 3360 linear objective coefficients
+Model has 126 quadratic constraints
+Variable types: 0 continuous, 3360 integer (3360 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 17417 rows and 2563 columns
+Presolve time: 0.04s
+Presolved: 4563 rows, 4882 columns, 29190 nonzeros
+Variable types: 0 continuous, 4882 integer (4882 binary)
+
+Root relaxation: objective 2.920157e+03, 515 iterations, 0.02 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2920.15734    0   95          - 2920.15734      -     -    0s
+     0     0 3018.34143    0  120          - 3018.34143      -     -    0s
+H    0     0                    3430.0000000 3018.34143  12.0%     -    0s
+     0     0 3022.04934    0  132 3430.00000 3022.04934  11.9%     -    0s
+     0     0 3022.06768    0  135 3430.00000 3022.06768  11.9%     -    0s
+     0     0 3080.87054    0  113 3430.00000 3080.87054  10.2%     -    0s
+     0     0 3084.31430    0  123 3430.00000 3084.31430  10.1%     -    0s
+     0     0 3084.36052    0  126 3430.00000 3084.36052  10.1%     -    0s
+     0     0 3113.38298    0  167 3430.00000 3113.38298  9.23%     -    0s
+     0     0 3131.64342    0  173 3430.00000 3131.64342  8.70%     -    0s
+     0     0 3132.88813    0  172 3430.00000 3132.88813  8.66%     -    0s
+H    0     0                    3403.0000000 3132.88813  7.94%     -    0s
+     0     0 3152.79567    0  154 3403.00000 3152.79567  7.35%     -    0s
+     0     0 3152.87535    0  152 3403.00000 3152.87535  7.35%     -    0s
+     0     0 3152.87535    0  145 3403.00000 3152.87535  7.35%     -    1s
+H    0     2                    3364.0000000 3152.91304  6.27%     -    1s
+     0     2 3152.91304    0  144 3364.00000 3152.91304  6.27%     -    1s
+H  164   191                    3354.0000000 3171.10997  5.45%   108    1s
+H  169   191                    3343.0000000 3171.10997  5.14%   107    1s
+H  174   191                    3342.0000000 3171.10997  5.11%   105    1s
+H  303   318                    3332.0000000 3171.10997  4.83%  93.1    1s
+H  312   318                    3329.0000000 3171.10997  4.74%  93.1    1s
+H  399   393                    3282.0000000 3172.13006  3.35%  85.4    1s
+H  528   438                    3270.0000000 3173.73223  2.94%  80.0    2s
+H  538   438                    3251.0000000 3173.73223  2.38%  80.1    2s
+  4023  1299 3245.48134   18  113 3251.00000 3206.90190  1.36%  56.7    5s
+
+Cutting planes:
+  Gomory: 4
+  Lift-and-project: 2
+  Cover: 200
+  Implied bound: 12
+  Clique: 29
+  MIR: 101
+  Knapsack: 10
+  StrongCG: 52
+  GUB cover: 9
+  Inf proof: 1
+  Zero half: 32
+  RLT: 198
+  Relax-and-lift: 48
+  BQP: 53
+  PSD: 1
+
+Explored 9824 nodes (523194 simplex iterations) in 9.13 seconds (7.33 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 10: 3251 3270 3282 ... 3403
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.251000000000e+03, best bound 3.251000000000e+03, gap 0.0000%
+
+User-callback calls 21393, time in user-callback 0.02 sec
+Set parameter LogToConsole to value 0

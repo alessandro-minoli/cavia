@@ -1,0 +1,89 @@
+
+Gurobi 13.0.0 (linux64) logging started Thu Jan 15 04:06:03 2026
+
+Set parameter LogFile to value "../experiments/network-n_50_s_0_rp_0-app_set-id_42_19_apps/submip_40_epr1_model_gurobi.log"
+Set parameter TimeLimit to value 858.923127572998
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  858.923127572998
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 29780 rows, 6200 columns and 67960 nonzeros (Min)
+Model fingerprint: 0x6031fc46
+Model has 6200 linear objective coefficients
+Model has 166 quadratic constraints
+Variable types: 0 continuous, 6200 integer (6200 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint fixed_app_11_microservice_4 by 1.000000000
+
+Presolve removed 29441 rows and 5241 columns
+Presolve time: 0.06s
+Presolved: 3653 rows, 4133 columns, 23460 nonzeros
+Variable types: 0 continuous, 4133 integer (4133 binary)
+
+Root relaxation: objective 4.608920e+03, 822 iterations, 0.02 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4608.92050    0   91          - 4608.92050      -     -    0s
+     0     0 4698.98334    0   99          - 4698.98334      -     -    0s
+     0     0 4700.17640    0   93          - 4700.17640      -     -    0s
+     0     0 4700.19200    0   93          - 4700.19200      -     -    0s
+     0     0 4729.30759    0  130          - 4729.30759      -     -    0s
+     0     0 4736.51860    0  117          - 4736.51860      -     -    0s
+     0     0 4737.90212    0  120          - 4737.90212      -     -    0s
+     0     0 4775.66608    0  157          - 4775.66608      -     -    0s
+     0     0 4776.95577    0  152          - 4776.95577      -     -    0s
+     0     0 4784.63946    0  138          - 4784.63946      -     -    0s
+     0     0 4785.15022    0  150          - 4785.15022      -     -    0s
+     0     0 4786.61567    0  175          - 4786.61567      -     -    0s
+     0     0 4786.88440    0  168          - 4786.88440      -     -    0s
+     0     0 4790.37114    0  167          - 4790.37114      -     -    0s
+     0     0 4790.81635    0  166          - 4790.81635      -     -    0s
+     0     0 4790.81635    0  151          - 4790.81635      -     -    0s
+     0     2 4790.84217    0  149          - 4790.84217      -     -    1s
+H  614   475                    4989.0000000 4819.16615  3.40%  51.6    1s
+*  899   592              22    4984.0000000 4821.45464  3.26%  48.2    1s
+H 2494   919                    4970.0000000 4852.97775  2.35%  52.1    2s
+* 3403   912              35    4969.0000000 4871.51333  1.96%  51.2    3s
+H 3405   912                    4961.0000000 4871.51333  1.80%  51.1    3s
+* 3961   894              20    4913.0000000 4884.84586  0.57%  50.2    3s
+H 4003   894                    4902.0000000 4884.84586  0.35%  50.2    3s
+
+Cutting planes:
+  Gomory: 6
+  Lift-and-project: 1
+  Cover: 139
+  Clique: 29
+  MIR: 98
+  Knapsack: 7
+  StrongCG: 62
+  GUB cover: 16
+  Zero half: 17
+  RLT: 75
+  Relax-and-lift: 47
+  BQP: 23
+
+Explored 4941 nodes (208923 simplex iterations) in 3.87 seconds (3.21 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 7: 4902 4913 4961 ... 4989
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.902000000000e+03, best bound 4.902000000000e+03, gap 0.0000%
+
+User-callback calls 11324, time in user-callback 0.01 sec

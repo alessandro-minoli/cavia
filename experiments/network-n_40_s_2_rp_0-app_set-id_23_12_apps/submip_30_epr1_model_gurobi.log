@@ -1,0 +1,84 @@
+
+Gurobi 13.0.0 (linux64) logging started Thu Jan 15 02:10:57 2026
+
+Set parameter LogFile to value "../experiments/network-n_40_s_2_rp_0-app_set-id_23_12_apps/submip_30_epr1_model_gurobi.log"
+Set parameter TimeLimit to value 8.8322344181500375e+02
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  8.8322344181500375e+02
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 10203 rows, 3120 columns and 24623 nonzeros (Min)
+Model fingerprint: 0x0ffe0168
+Model has 3120 linear objective coefficients
+Model has 126 quadratic constraints
+Variable types: 0 continuous, 3120 integer (3120 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [6e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint fixed_app_5_microservice_7 by 1.000000000
+
+Presolve removed 9796 rows and 2378 columns
+Presolve time: 0.05s
+Presolved: 6116 rows, 6306 columns, 36621 nonzeros
+Variable types: 0 continuous, 6306 integer (6306 binary)
+
+Root relaxation: objective 2.808401e+03, 723 iterations, 0.03 seconds (0.06 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2808.40111    0  119          - 2808.40111      -     -    0s
+     0     0 2949.87660    0  144          - 2949.87660      -     -    0s
+     0     0 2955.62451    0  145          - 2955.62451      -     -    0s
+     0     0 2956.12449    0  145          - 2956.12449      -     -    0s
+     0     0 3112.64831    0  149          - 3112.64831      -     -    0s
+     0     0 3131.14187    0  164          - 3131.14187      -     -    0s
+     0     0 3133.40156    0  162          - 3133.40156      -     -    0s
+     0     0 3178.34812    0  191          - 3178.34812      -     -    1s
+     0     0 3199.99493    0  197          - 3199.99493      -     -    1s
+     0     0 3208.11127    0  208          - 3208.11127      -     -    1s
+     0     0 3209.28203    0  207          - 3209.28203      -     -    1s
+     0     0 3237.11646    0  212          - 3237.11646      -     -    1s
+     0     0 3250.23912    0  215          - 3250.23912      -     -    1s
+     0     0 3264.84109    0  233          - 3264.84109      -     -    1s
+     0     0 3268.33895    0  242          - 3268.33895      -     -    1s
+     0     0 3282.69466    0  248          - 3282.69466      -     -    1s
+     0     0 3282.79877    0  241          - 3282.79877      -     -    1s
+     0     0 3282.79877    0  233          - 3282.79877      -     -    1s
+     0     2 3290.08611    0  226          - 3290.08611      -     -    1s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 47
+  Clique: 16
+  MIR: 34
+  Knapsack: 2
+  StrongCG: 13
+  GUB cover: 6
+  Zero half: 9
+  RLT: 149
+  Relax-and-lift: 23
+  BQP: 33
+
+Explored 9 nodes (7316 simplex iterations) in 2.07 seconds (2.43 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 1139, time in user-callback 0.00 sec
+Set parameter LogToConsole to value 0

@@ -1,0 +1,12 @@
+time 2.906
+GUROBI
+Status INFEASIBLE
+Runtime 2.9061222076416016
+NodeCount 1.0
+IterCount 6603.0
+NumVars 12700
+NumConstrs 62777
+ObjBound inf
+ObjBoundC inf
+ObjVal None
+MIPGap inf

@@ -1,0 +1,43 @@
+found_sol 4775.0 time 59.362
+found_sol 4749.0 time 64.747
+found_sol 4734.0 time 70.659
+found_sol 4716.0 time 70.663
+found_sol 4715.0 time 74.199
+found_sol 4701.0 time 74.203
+found_sol 4696.0 time 83.241
+found_sol 4689.0 time 83.246
+found_sol 4669.0 time 88.083
+found_sol 4653.0 time 90.147
+found_sol 4611.0 time 95.195
+found_sol 4606.0 time 100.446
+found_sol 4593.0 time 100.450
+found_sol 4588.0 time 103.603
+found_sol 4581.0 time 112.901
+found_sol 4576.0 time 115.674
+found_sol 4574.0 time 115.689
+found_sol 4565.0 time 118.814
+found_sol 4564.0 time 125.158
+found_sol 4559.0 time 136.841
+found_sol 4558.0 time 136.844
+found_sol 4534.0 time 188.565
+found_sol 4529.0 time 200.229
+found_sol 4529.0 time 236.183
+found_sol 4534.0 time 236.189
+found_sol 4558.0 time 236.201
+found_sol 4534.0 time 371.418
+found_sol 4558.0 time 371.423
+found_sol 4525.0 time 587.620
+found_sol 4522.0 time 606.580
+found_sol 4518.0 time 689.751
+time 900.061
+GUROBI
+Status TIME_LIMIT
+Runtime 900.061028957367
+NodeCount 6204.0
+IterCount 1981258.0
+NumVars 8580
+NumConstrs 69881
+ObjBound 4424.0
+ObjBoundC 4423.604610793479
+ObjVal 4518.0
+MIPGap 0.02080566622399292

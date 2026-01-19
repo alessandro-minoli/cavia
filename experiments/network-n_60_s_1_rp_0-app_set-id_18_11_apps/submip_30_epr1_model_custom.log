@@ -1,0 +1,66 @@
+FIXINGS_START
+(0, 0, 0)
+(0, 8, 0)
+(1, 0, 0)
+(2, 0, 0)
+(2, 1, 0)
+(3, 0, 0)
+(4, 7, 0)
+(4, 8, 0)
+(5, 0, 0)
+(5, 8, 0)
+(6, 0, 0)
+(7, 0, 0)
+(8, 0, 0)
+(9, 0, 0)
+(9, 6, 0)
+(10, 0, 0)
+(2, 4, 0)
+(6, 1, 0)
+(7, 2, 0)
+(6, 2, 0)
+(0, 4, 0)
+(6, 3, 38)
+(7, 4, 18)
+(9, 8, 0)
+(10, 1, 0)
+(6, 4, 0)
+(10, 4, 0)
+(5, 1, 0)
+(6, 5, 34)
+(4, 2, 0)
+(5, 2, 38)
+(5, 3, 21)
+(5, 4, 0)
+FIXINGS_END
+found_sol 3783.0 time 0.675
+found_sol 3710.0 time 1.507
+found_sol 3673.0 time 2.631
+found_sol 3638.0 time 2.959
+found_sol 3606.0 time 2.960
+found_sol 3553.0 time 3.330
+found_sol 3550.0 time 3.417
+found_sol 3522.0 time 4.009
+found_sol 3517.0 time 4.834
+found_sol 3499.0 time 4.834
+found_sol 3477.0 time 5.559
+found_sol 3476.0 time 5.559
+found_sol 3465.0 time 6.064
+found_sol 3465.0 time 12.267
+found_sol 3476.0 time 12.267
+found_sol 3477.0 time 12.267
+found_sol 3434.0 time 19.607
+found_sol 3432.0 time 26.906
+found_sol 3431.0 time 28.465
+time 28.792
+GUROBI
+Status OPTIMAL
+Runtime 28.7920138835907
+NodeCount 6905.0
+IterCount 603573.0
+NumVars 4320
+NumConstrs 23183
+ObjBound 3431.0
+ObjBoundC 3431.0
+ObjVal 3431.0
+MIPGap 0.0

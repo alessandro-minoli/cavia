@@ -1,0 +1,93 @@
+
+Gurobi 13.0.0 (linux64) logging started Mon Jan  5 03:22:37 2026
+
+Set parameter LogFile to value "../experiments/network-n_40_s_1_rp_0-app_set-id_51_22_apps/compact_model_gurobi.log"
+Set parameter TimeLimit to value 900
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Ubuntu 24.04.3 LTS")
+
+CPU model: Intel(R) Core(TM) Ultra 7 165H, instruction set [SSE2|AVX|AVX2]
+Thread count: 22 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+TimeLimit  900
+LogToConsole  0
+
+Academic license 2539022 - for non-commercial use only - registered to al___@studenti.unimi.it
+Optimize a model with 21671 rows, 5720 columns and 51153 nonzeros (Min)
+Model fingerprint: 0x88ade590
+Model has 5720 linear objective coefficients
+Model has 128 quadratic constraints
+Variable types: 0 continuous, 5720 integer (5720 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  QMatrix range    [5e+01, 2e+02]
+  Objective range  [1e+01, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+09]
+  QRHS range       [1e+02, 6e+02]
+Presolve removed 20239 rows and 3444 columns
+Presolve time: 0.18s
+Presolved: 26183 rows, 26867 columns, 157014 nonzeros
+Variable types: 0 continuous, 26867 integer (26867 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.02s
+
+Solved with dual simplex
+
+Root relaxation: objective 4.724820e+03, 2632 iterations, 0.67 seconds (0.57 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4724.82045    0  338          - 4724.82045      -     -    1s
+     0     0 4824.04755    0  397          - 4824.04755      -     -    3s
+     0     0 4916.79402    0  478          - 4916.79402      -     -    4s
+     0     0 4930.45988    0  550          - 4930.45988      -     -    5s
+     0     0 4930.52795    0  548          - 4930.52795      -     -    5s
+     0     0 5047.53879    0  519          - 5047.53879      -     -    7s
+     0     0 5165.18316    0  584          - 5165.18316      -     -    8s
+     0     0 5201.87179    0  540          - 5201.87179      -     -    9s
+     0     0 5214.38000    0  532          - 5214.38000      -     -    9s
+     0     0 5216.16024    0  606          - 5216.16024      -     -   10s
+     0     0 5519.46914    0  582          - 5519.46914      -     -   13s
+     0     0 5606.56378    0  611          - 5606.56378      -     -   14s
+     0     0 5644.74162    0  649          - 5644.74162      -     -   15s
+     0     0 5651.05658    0  661          - 5651.05658      -     -   15s
+     0     0 5872.20901    0  638          - 5872.20901      -     -   18s
+     0     0 6004.14974    0  661          - 6004.14974      -     -   20s
+     0     0 6086.07201    0  664          - 6086.07201      -     -   21s
+     0     0 6114.63062    0  696          - 6114.63062      -     -   21s
+     0     0 6120.82652    0  736          - 6120.82652      -     -   21s
+     0     0 6191.87653    0  683          - 6191.87653      -     -   22s
+     0     0 6297.76308    0  718          - 6297.76308      -     -   23s
+     0     0 6341.87393    0  710          - 6341.87393      -     -   24s
+     0     0 6478.38791    0  765          - 6478.38791      -     -   25s
+     0     0 6599.77407    0  741          - 6599.77407      -     -   26s
+     0     0 infeasible    0               - infeasible      -     -   33s
+
+Cutting planes:
+  Gomory: 1
+  Lift-and-project: 2
+  Cover: 82
+  Implied bound: 4
+  Clique: 42
+  MIR: 170
+  Knapsack: 30
+  StrongCG: 73
+  GUB cover: 6
+  Zero half: 25
+  RLT: 617
+  Relax-and-lift: 147
+  BQP: 332
+
+Explored 1 nodes (50730 simplex iterations) in 33.23 seconds (34.94 work units)
+Thread count was 22 (of 22 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 1778, time in user-callback 0.01 sec
