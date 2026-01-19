@@ -1,0 +1,14 @@
+core
+718 153 58 196
+has_camera
+0 0 1 0
+has_gpu
+0 1 0 1
+bandwidth
+1,0 100
+2,1 102
+3,0 137
+latency
+1,0 3
+2,1 4
+3,0 4

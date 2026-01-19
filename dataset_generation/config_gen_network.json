@@ -1,0 +1,35 @@
+{
+  "network_size": null,
+
+  "edge_percentage": 0.66,
+  "min_cloud-edge_connectivity_percentage": 0.4,
+  "max_cloud-edge_connectivity_percentage": 0.6,
+  "min_average_edge_degree": 3.0,
+
+  "vehicle_min_core": 10,
+  "vehicle_max_core": 150,
+  "edge_min_core": 100,
+  "edge_max_core": 400,
+  "cloud_core": 1000000000,
+  "prob_vehicle_has_camera": 0.8,
+  "prob_vehicle_has_gpu": 0.65,
+  "prob_edge_has_camera": 0.65,
+  "prob_edge_has_gpu": 0.8,
+  "min_bandwidth": 100,
+  "max_bandwidth": 600,
+  "latency": 1,
+
+  "vehicle_min_cost": 150,
+  "vehicle_max_cost": 200,
+  "edge_min_cost": 50,
+  "edge_max_cost": 100,
+  "cloud_cost": 10,
+
+  "number_of_topologies_to_generate": 3,
+  "number_of_property_resources_files_per_topology": 1,
+
+  "save_image": true,
+  "save_topology_files": true,
+  "save_property_resources_files": true,
+  "output_dir": "../dataset/network"
+}

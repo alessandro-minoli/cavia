@@ -1,0 +1,12 @@
+core
+498 167 50
+has_camera
+0 1 1
+has_gpu
+0 0 0
+bandwidth
+1,0 126
+2,1 141
+latency
+1,0 4
+2,1 4

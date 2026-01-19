@@ -1,0 +1,27 @@
+{
+  "app_size" : null,
+  "app_topology" : null,
+  "number_of_topologies_to_generate" : null,
+  "number_of_property_resources_files_per_topology" : null,
+
+  "edge_percentage": 0.6,
+
+  "vehicle_min_core": 5,
+  "vehicle_max_core": 75,
+  "edge_min_core": 80,
+  "edge_max_core": 250,
+  "cloud_min_core": 350,
+  "cloud_max_core": 900,
+  "prob_vehicle_needs_camera": 0.5,
+  "prob_vehicle_needs_gpu": 0.35,
+  "prob_edge_needs_camera": 0.35,
+  "prob_edge_needs_gpu": 0.5,
+  "min_bandwidth": 50,
+  "max_bandwidth": 200,
+  "latency": [2,3,4],
+
+  "save_image": true,
+  "save_topology_files": true,
+  "save_property_resources_files": true,
+  "output_dir": "../dataset/app"
+}
