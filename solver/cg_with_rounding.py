@@ -23,7 +23,6 @@ def run_cg_with_rounding(ins, input):
             "status" : None,
             "time" : None, 
             "n_iterations" : None,
-            # history of mp_objective_value, mp_time, pp_type (H/E), pp_time, best_dual_bound
         },
         "rounding" : {
             "n_microservices_total" : None,
@@ -375,24 +374,5 @@ def run_cg_with_rounding(ins, input):
     RESULT["rounding"]["history_fixing_time"] = history_fixing_time
     RESULT["rounding"]["n_non-mandatory_final_fixings"] = (n_fixed_microservices - n_mandatory_fixings) 
     RESULT["rounding"]["perc_non-mandatory_final_fixings"] = (n_fixed_microservices - n_mandatory_fixings) / (n_microservices_total - n_mandatory_fixings)
-    
-    """
-    print("fixed", sum(n_fixed_microservices))
-    print("remaining", n_microservices_total-sum(n_fixed_microservices))
-    print("... building instance")
-    instance = Instance.build(
-        network_filename, 
-        network_rp_filename, 
-        app_filename=apps_merged_filename, 
-        app_rp_filename=apps_merged_rp_filename
-    )
-    end_R = perf_counter()
-    elapsed_minutes = (end_R-start_CG) / 60
-    print(f"... solving restricted compact model {end_R-start_CG:.3f} with time limit {15-elapsed_minutes}")
-
-    res = ModelSolver.optimize_model_restricted(instance, history_fixing_type, T_n, start_CG, 15-elapsed_minutes)
-    end_R = perf_counter()
-    print(f"{end_R-start_CG:.3f} result {res}")
-    """
 
     return RESULT

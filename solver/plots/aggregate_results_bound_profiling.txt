@@ -1,0 +1,15 @@
+# >15m_NO-SOL-FOUND and NO-SOL-FOUND by any submip : 77
+
+# >15m_SOL-FOUND    and NO-SOL-FOUND by any submip : 9
+
+# >15m_NO-SOL-FOUND and SOL-FOUND by some submip : 5
+	30_epr0 : 2
+	30_epr1 : 5
+	40_epr0 : 1
+	40_epr1 : 3
+    
+# >15m_SOL-FOUND    and SOL-FOUND by some submip : 93
+	30_epr0 : 64
+	30_epr1 : 90
+	40_epr0 : 52
+	40_epr1 : 76

@@ -68,42 +68,7 @@ class PricerLocalSearch:
         cur_solution[u] = None
         return cur_z
     
-    """
-    def is_feasible(
-        self, cur_solution, used_core, used_bandwidth
-    ):
-        (
-            I,A,c,P,a2,
-            T,D,
-            Q_nodes_R_core, Q_links_R_bandwidth,
-            q_microservices_R_core, q_connections_R_bandwidth,
-            b_microservices_zero, b_microservices_one, 
-            b_connections_zero_not_implied, b_connections_one, b_connections_one_actual
-        ) = (
-            self.I,self.A,self.c,self.P,self.a2,
-            self.T,self.D,
-            self.Q_nodes_R_core, self.Q_links_R_bandwidth,
-            self.q_microservices_R_core, self.q_connections_R_bandwidth,
-            self.b_microservices_zero, self.b_microservices_one, 
-            self.b_connections_zero_not_implied, self.b_connections_one, self.b_connections_one_actual
-        )
-
-        # incoming = self.incoming
-        # outcoming = self.outcoming
-        
-        assert None not in cur_solution
-        
-        for i in range(I):
-            if used_core[i] > Q_nodes_R_core[i]:
-                return False
-        
-        for (l,m) in A:
-            if used_bandwidth[l,m] > Q_links_R_bandwidth[l,m]:
-                return False
-
-        return True
-    """
-
+    
     def is_feasible_improved(self, cur_solution, used_core, used_bandwidth, u, j):
         
         ins = self.ins
