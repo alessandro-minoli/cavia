@@ -58,10 +58,12 @@ for ins in instances_iterator(
 
         for t in submip_types:
             submip_model_logfile_custom = os.path.join(experiment_dir, f"submip_{t}_model_custom.log")
+            submip_model_logfile_gurobi = os.path.join(experiment_dir, f"submip_{t}_model_gurobi.log")
             if not os.path.exists(submip_model_logfile_custom):
                 continue
+            assert os.path.exists(submip_model_logfile_gurobi)
 
-            submip_bound_profiling_data, submip_gurobi_data = read_submip_model_logfile_custom(submip_model_logfile_custom)
+            submip_bound_profiling_data, submip_gurobi_data = read_submip_model_logfile_custom(submip_model_logfile_custom, submip_model_logfile_gurobi)
             if submip_gurobi_data["Status"] in (">15m_NO-SOL-FOUND", "INFEASIBLE", "FAIL"):
                 assert len(submip_bound_profiling_data) == 0
             else:

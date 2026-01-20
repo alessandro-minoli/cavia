@@ -96,14 +96,6 @@ def build_merged_app(apps):
         merged_q_connections_R_bandwidth,
         merged_q_connections_S_latency
     )
-    # App(
-    #     merged_T, merged_D,
-    #     merged_q_microservices_R_core,
-    #     merged_q_microservices_S_has_camera,
-    #     merged_q_microservices_S_has_gpu,
-    #     merged_q_connections_R_bandwidth,
-    #     merged_q_connections_S_latency
-    # )
 
 
 def create_instance(DATASET_NETWORK_DIR, DATASET_APP_DIR, ins):

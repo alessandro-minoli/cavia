@@ -39,11 +39,11 @@ def read_compact_model_logfile_custom(path):
     return bound_profiling_data, gurobi_data
 
 
-def read_submip_model_logfile_custom(path):
+def read_submip_model_logfile_custom(path_logfile_custom, path_logfile_gurobi):
     bound_profiling_data = []
 
     gurobi_data = dict()
-    with open(path, 'r') as f:
+    with open(path_logfile_custom, 'r') as f:
         lines = list(map(lambda x: x.strip(), f.readlines()))
         if len(lines) == 1:
             assert lines[0] in (
@@ -52,6 +52,12 @@ def read_submip_model_logfile_custom(path):
             )
             gurobi_data['Status'] = "FAIL"
             return bound_profiling_data, gurobi_data
+        
+        with open(path_logfile_gurobi, 'r') as f:
+            line = f.readlines()[4]
+            assert line.startswith("Set parameter TimeLimit to value ")
+            time_cg_with_rounding = 900-float(line.lstrip("Set parameter TimeLimit to value "))
+            assert time_cg_with_rounding > 0
 
         j = lines.index("FIXINGS_END")
         i = lines.index("GUROBI")
@@ -62,7 +68,7 @@ def read_submip_model_logfile_custom(path):
             assert sol % 1 < 0.001 or sol % 1 > 1-0.001
             sol = round(sol)
             if len(bound_profiling_data) == 0 or sol < bound_profiling_data[-1][0]:
-                bound_profiling_data.append((sol,time))
+                bound_profiling_data.append((sol,time_cg_with_rounding+time))
         for l in lines[i+1:]:
             k,v = l.split()
             gurobi_data[k] = v
